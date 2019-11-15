@@ -3,6 +3,7 @@ git-auto-setup.py
 __pycache__/
 *.py[cod]
 *$py.class
+venv/
 
 # C extensions
 *.so
