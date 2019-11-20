@@ -15,6 +15,7 @@ def main():
     # do stuff
     scrape_data()
     print("Email sent!")
+    print("this is a test of the git branch")
 def scrape_data():
     for i in range(len(items)):
         period_names.append(items[i].find(class_="period-name").get_text())
